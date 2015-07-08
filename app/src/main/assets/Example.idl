@@ -1,0 +1,78 @@
+KIT ;
+  IDL VERSION 1.2.8 ;
+  TITLE 'Example' ;
+  AUTHOR 'Author' ;
+  CREATION DATE 8/7/2015 ;
+  PROJECT NAME 'Project name' ;
+
+  MODEL 'Example'
+    {LWI
+    F 0 -13 0 0 0 400
+      0 0 0 204 3 2 1 34
+      100 'Arial'
+    F 1 -24 0 0 0 400
+      0 0 0 204 3 2 1 34
+      190 'Arial'
+    F 2 -11 0 0 0 400
+      0 0 0 204 3 2 1 34
+      80 'Courier New'
+    F 3 -8 0 0 0 400
+      0 0 0 204 3 2 1 34
+      60 'Dialog'
+    F 4 -10 0 0 0 400
+      0 0 0 204 3 2 1 34
+      80 'Dialog'
+    D 0 0 0 0 0 1 0 0 2
+    G 0 1
+    T 'WORKING'
+    R 77
+    M 0 }
+   ;
+    AUTHOR 'Author' ;
+    PROJECT NAME 'Project name' ;
+    DIAGRAM GRAPHIC A-0 ;
+      CREATION DATE 8/7/2015 ;
+      REVISION DATE 8/7/2015 ;
+      TITLE 'Example' ;
+      STATUS WORKING ;
+
+      BOX 0 ;
+        NAME '{LWI I 4 255 255 255}Block 1' ;
+        BOX COORDINATES (0,425;0,524) (0,512;0,406) ;
+        DETAIL REFERENCE N A0 ;
+      ENDBOX ;
+      ARROWSEG 1 ;
+        SOURCE BORDER ;
+        PATH (0,019;0,463)(0,425;0,463) ;
+        LABEL '{LWI I 0 255 255 }Input' ;
+        LABEL COORDINATES (0,2;0,292) ;
+        SQUIGGLE COORDINATES (0,22;0,304) (0,222;0,463) ;
+        SINK BOX 0I1 ;
+      ENDSEG ;
+      ARROWSEG 2 ;
+        SOURCE BORDER ;
+        PATH (0,467;0,031)(0,467;0,406) ;
+        LABEL '{LWI I 0 255 255 }Control' ;
+        LABEL COORDINATES (0,542;0,22) ;
+        SQUIGGLE COORDINATES (0,542;0,218) (0,467;0,218) ;
+        SINK BOX 0C1 ;
+      ENDSEG ;
+      ARROWSEG 3 ;
+        SOURCE BOX 0O1 ;
+        PATH (0,512;0,461)(0,977;0,461) ;
+        LABEL '{LWI I 0 255 255 }Output' ;
+        LABEL COORDINATES (0,717;0,292) ;
+        SQUIGGLE COORDINATES (0,745;0,306) (0,745;0,461) ;
+        SINK BORDER ;
+      ENDSEG ;
+      ARROWSEG 4 ;
+        SOURCE BORDER ;
+        PATH (0,467;0,968)(0,467;0,524) ;
+        LABEL '{LWI I 0 255 255 }Mechanism' ;
+        LABEL COORDINATES (0,537;0,747) ;
+        SQUIGGLE COORDINATES (0,537;0,746) (0,467;0,746) ;
+        SINK BOX 0M1 ;
+      ENDSEG ;
+    ENDDIAGRAM ;
+  ENDMODEL ;
+ENDKIT ;

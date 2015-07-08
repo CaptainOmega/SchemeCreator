@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/background_material_dark">
+
+        <ImageButton
+            android:id="@+id/menu_add"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@null"
+            android:src="@drawable/ic_menu_add" />
+
+        <ImageButton
+            android:id="@+id/menu_save"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@null"
+            android:src="@drawable/ic_menu_save" />
+
+        <ImageButton
+            android:id="@+id/menu_open"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@null"
+            android:src="@drawable/ic_menu_archive" />
+
+        <ImageButton
+            android:id="@+id/menu_port"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@null"
+            android:src="@drawable/ic_menu_upload" />
+
+        <ImageButton
+            android:id="@+id/menu_settings"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@null"
+            android:src="@drawable/ic_menu_settings" />
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@null"
+            android:layout_weight="1"/>
+
+        <ImageButton
+            android:id="@+id/level_down"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@null"
+            android:src="@drawable/ic_menu_level_down"/>
+
+        <ImageButton
+            android:id="@+id/level_up"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@null"
+            android:src="@drawable/ic_menu_level_up"/>
+
+
+</LinearLayout>

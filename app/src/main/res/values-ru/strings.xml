@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--Application value-->
+    <string name="app_name">Scheme Creator</string>
+    <string name="action_settings">Settings</string>
+
+    <!--Activity value-->
+    <string name="title_activity_file">FileActivity</string>
+    <string name="title_activity_document">DocumentActivity</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+
+    <!--Dialog title-->
+    <string name="dialog_edit">Действие</string>
+    <string name="dialog_info">Сообщение</string>
+    <string name="dialog_error">Ошибка</string>
+    <string name="dialog_warning">Предупреждение</string>
+
+    <!--Dialog button-->
+    <string name="btn_positive">OK</string>
+    <string name="btn_negative">Отмена</string>
+    <string name="btn_yes">Да</string>
+    <string name="btn_no">Нет</string>
+
+    <!--MainActivity value-->
+    <string name="label_choose_action">Выберите действие:</string>
+    <string name="btn_new_doc">Новый</string>
+    <string name="btn_open_doc">Открыть</string>
+    <string name="btn_doc_settings">Настройки</string>
+    <string name="label_recent_files">Недавние файлы:</string>
+
+    <!--FileActivity value-->
+    <string name="msg_edit_file_name">Редактирование имени файла:</string>
+    <string name="msg_error_save_file">Файл не может быть сохранен.</string>
+    <string name="msg_error_delete_file">Файл не может быть удален.</string>
+
+    <!--DocumentActivity value-->
+    <!--Model settings-->
+    <string name="title_model_settings">Настройки модели</string>
+    <!--Creation date:-->
+    <string name="label_model_creation_date">Дата создания:</string>
+    <string name="label_model_title">Заголовок:</string>
+    <string name="label_model_author">Автор:</string>
+    <string name="label_model_project">Название проекта:</string>
+    <string name="label_model_name">Название модели:</string>
+    <string name="btn_model_clear">Сброс</string>
+
+    <string name="msg_edit_box_text">Введите текст:</string>
+    <string name="msg_edit_label_text">Введите текст:</string>
+    <string name="msg_edit_create_diagram">Создать новую диаграмму?</string>
+    <string name="msg_edit_save_before_close">Сохранить документ перед закрытием?</string>
+    <string name="msg_edit_new">Закрыть текущий документ? Все несохраненные данные будут потеряны.</string>
+    <string name="msg_edit_open">Закрыть текущий документ? Все несохраненные данные будут потеряны.</string>
+    <string name="msg_error_read_file">Ошибка чтения файла.</string>
+    <string name="msg_error_write_file">Ошибка записи в файл.</string>
+
+    <!--SettingsActivity value-->
+    <!--Application settings-->
+    <string name="title_app_settings">Настройки приложения</string>
+    <string name="label_app_author">Автор:</string>
+    <!--Save data on:-->
+    <string name="label_app_storage">Место хранения:</string>
+    <string name="label_app_storage_dir">Текущая директория:</string>
+    <string name="msg_app_storage_dir">Файлы IDEF-моделей приложения будут храниться в папке </string>
+
+    <string name="btn_app_settings_save">Сохранить</string>
+    <string name="btn_app_settings_about">О приложении</string>
+    <string name="btn_app_settings_reset">Сброс</string>
+
+    <string name="msg_info_about_app">Информация о приложении.</string>
+    <string name="msg_edit_reset_settings">Сбросить настройки приложения?</string>
+    <!--"Application can't find SD card. The application files will be stored in the device memory."-->
+    <string name="msg_warning_no_sdcard">Приложение не может найти SD карту. Файлы приложения будут сохранены в памяти устройства.</string>
+    <!--"SD card not available for application. The application files will be stored in the device memory."-->
+    <string name="msg_warning_sdcard_not_available">Приложение не может получить доступ к SD карте. Файлы приложения будут сохранены в памяти устройства.</string>
+
+    <color name="select_blue">#75BCFF</color>
+    <color name="silver">#C0C0C0</color>
+
+
+</resources>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/background_material_dark">
+
+    <ImageButton
+        android:id="@+id/tool_pointer"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@null"
+        android:src="@drawable/ic_tools_pointer" />
+
+    <ImageButton
+        android:id="@+id/tool_box"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@null"
+        android:src="@drawable/ic_tools_box" />
+
+    <ImageButton
+        android:id="@+id/tool_arrow"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@null"
+        android:src="@drawable/ic_tools_arrow" />
+
+    <ImageButton
+        android:id="@+id/tool_text"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@null"
+        android:src="@drawable/ic_tools_text" />
+
+    <ImageButton
+        android:id="@+id/tool_remove"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@null"
+        android:src="@drawable/ic_tools_remove" />
+
+</LinearLayout>
